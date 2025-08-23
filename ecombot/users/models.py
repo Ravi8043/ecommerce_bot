@@ -6,7 +6,7 @@ class Business(models.Model):
     name = models.CharField(max_length=255)
     email = models.EmailField(unique = True)
     phone_number = models.IntegerField()
-    address = models.TextField()
+    address = models.TextField(blank=True, null=True)
     instagram_handle = models.CharField(max_length=255, blank=True, null=True)
     instagram_url = models.URLField(blank=True, null=True)
     website = models.URLField(blank=True, null=True)
