@@ -1,0 +1,12 @@
+# Core LangChain and Google AI integration
+langchain-core
+langchain-google-genai
+
+# Community components, including FAISS vector store wrapper
+langchain-community
+
+# Vector store implementation (CPU version)
+faiss-cpu
+
+# For loading environment variables from a .env file
+python-dotenv
